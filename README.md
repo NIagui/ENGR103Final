@@ -13,7 +13,7 @@ Input:
 
 Button right: when pressed, turn off the current LED, or turn it back on if it’s off
 
-Sound: use a sound sensor to detect the sound of the user screaming. Map it from 300 to 1023 to a range of 0 to 500. The louder the sound, the slower the LED flows. 
+Sound: use a sound sensor to detect the sound of the user screaming. Map it from -1023 to 1023 to a range of 0 to 200. The louder the sound, the slower the LED flows. 
 
 
 Output:
