@@ -4,9 +4,13 @@
   Gordon Shum
   
 # What it does
-  Normally, all the LED will be closed. Each LED will start popping out as red in one direction quickly. Pressing the right button will turn on the LED that’s red. The speed of the lights is very quick, but the player can scream and slow down the LED. If the right button is pressed mistakenly when the LED is already on, it will turn back off.
+  Normally, all the LED will be closed. A red dot will scan through the LEDs in one direction quickly. Pressing the right button will turn on the LED that’s red. The speed of the lights is very quick, but the player can scream and slow down the LED. If the right button is pressed mistakenly when the LED is already on, it will turn back off.
+  There is also a cooldown for the button which avoids player press non stop and win too easily. 
 
 The goal is to turn all the LEDs on. When all the LEDs are turned on, a winning tune will play.
+
+# Instruction
+Press the button when 
 
 # Inputs and Outputs
 Input: 
