@@ -9,8 +9,6 @@
 
 The goal is to turn all the LEDs on. When all the LEDs are turned on, a winning tune will play.
 
-# Instruction
-
 
 # Inputs and Outputs
 Input: 
