@@ -44,15 +44,15 @@ int winSong[12][2]{ //the music played when the game ends
   {523.25,600},
 };
 
-void setup() {
+void setup(){
   Serial.begin(9600);
   CircuitPlayground.begin();
   attachInterrupt(digitalPinToInterrupt(RB), ButtonR, RISING); //set up interrupt for right button
-  cooldown.start(1250, AsyncDelay::MILLIS); //start the timers
+  cooldown.start(1300, AsyncDelay::MILLIS); //start the timers
   sensorCooldown.start(100, AsyncDelay::MILLIS);
 }
 
-void loop() {
+void loop(){
   if(sensorCooldown.isExpired()){ //detect and map the volume
     volume = CircuitPlayground.soundSensor(); 
     volume = map(volume, -1023, 1023, 0, 200); 
@@ -126,7 +126,7 @@ void puzzleclockwise(int volume, int pinState[][2]){ //main game function
     //Serial.println(currentPin); //test lines
     //Serial.println(currentPinState);
     //Serial.println(buttonFlag);
-    //Serial.println(volume);
+    Serial.println(volume);
   }
 }
 
